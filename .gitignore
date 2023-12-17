@@ -1,0 +1,53 @@
+# Object files
+*.o
+*.ko
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Linux shared libraries)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled binaries and generated files
+calculator  # Assuming your compiled program is named "calculator"
+lex.yy.c
+y.tab.c
+y.tab.h
+
+# Temporary files
+*.swp
+*~
+
+# Dependency files
+.depend
+
+# Fedora system files
+rpmbuild/
+
+# Ignore compiled Python files, if applicable
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled Java classes, if applicable
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore Node.js-related files
+node_modules/
+
+# Ignore virtual environment files for Python
+venv/
