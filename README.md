@@ -31,6 +31,9 @@ lex calculator.l
 ```bash
 # Compile the code
 gcc lex.yy.c y.tab.c -o calculator
+# link math library
+gcc lex.yy.c y.tab.c -o calculator -lm
+
 
 ```
 
